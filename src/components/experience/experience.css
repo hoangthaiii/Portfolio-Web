@@ -1,0 +1,44 @@
+.experience_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.experience_container > div {
+    background: var(--color-bg-variant);
+    padding-top: 2.4rem;
+    padding-bottom: 4.5rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.experience_container > div:hover{
+    background: transparent;
+    border-color: var(--color-pimary-variant);
+    cursor: default;
+}
+
+.experience_container > div h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--color-pimary);
+    
+}
+
+.experience_content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+}
+
+.experience_details{
+    display: flex;
+    gap: 1rem;
+    margin: 0 auto;
+}
+
+.icon{
+    margin-top: 6px;
+    color: var(--color-pimary);
+}
